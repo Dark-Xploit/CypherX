@@ -1,7 +1,7 @@
 {
-  "name": "CypherX",
+  "name": "toxic",
   "version": "latest",
-  "description": "CypherX, the best WhatsApp Bot",
+  "description": "toxic, the best WhatsApp Bot",
   "logo": "https://i.ibb.co/Q4QCHYd/copilot-image-1739572393172.jpg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/Dark-Xploit/CypherX",
@@ -21,8 +21,8 @@
     "required": false
   },
   "BOT_NAME": {
-    "description": "The display name of the bot as it will appear in interactions.",
-    "value": "CypherX",
+    "description": "toxic .",
+    "value": "toxic X",
     "required": false
   },
   "OWNER_NUMBER": {
