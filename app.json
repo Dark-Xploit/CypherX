@@ -5,7 +5,7 @@
   "keywords": [],
   "repository": "https://github.com/Dark-Xploit/CypherX",
   "stack": "container",
-  "addons": [
+  "addons": [.
     {
       "plan": "heroku-postgresql"
     }
@@ -14,7 +14,7 @@
     "start": "node index.js"
   },
 "env": {
-  "SESSION_ID": {
+  "SESSION_ID": {CYPHER-X:~UEsDBBQAAAgIAEle3lrRD8LyfwQAAJkHAAAKAAAAY3JlZHMuanNvbpVU227iSBD9lVG*gmJsDNhIkcYY4xsXG+MQWM1DY7dNg290twn2iJ*Ke*4ln7IySSajlXY266d2devUqTqn6ifIckyRjSow*AkKgs+QoebIqgKBIRiVUYQIaIMQMgiGQLc093g8JO7ZqM+0k1sStzPslTZbevrsUsd7HIXWTj21hPgeXNugKHcJDv4AaFucGthz5hLaHejRWLPPHD9ZGw9FcFZVNbXMeRyNCF8Zyj24NogQE5zFWrFHKSIwsVHlQEy+Rn+mGdyKMHtSHPqGJvEZVzzOOPfYrcKIypMpOUwnunqSD13ta*RzOeQDiULHk6bqXL8oHDa2F3War1xpLxfKXtx2nDqP7W7wRp*iOEOhGaKMYVZ9ve*KFtaHx3U4qrv+Jto6XFzrbm9Tt5ahX86IrYvRhJ02Cu9+jbggBgaajqe84WyNfhINqt3BqDCnRHVM9NbeqyRrkAfY9unvxB3y4ZXj*+m7abXSNaV7f89x5qkyo+VB6c3nioqy85bBbKylu6cu5tPu09foc6nn9vJkb3fk80NcLODK7s8naLxwxJ3pSw8pRE+TjaMvK*OTPmQl+RNL+9C6LHVfgtqGd7pot6qd3jxSuaDUHsqKlf6qpv3BZiV0jKm2DOOHjRfma7EQNgde0uWDWWe5KZDz0pLJFuapaz+qytP9raIjqswQDPlrGxAUY8oIZDjPbrGB2AYwPHsoIIjd2gs2TwL1nXmwI4fBRpt7WdDKLMHQIH8S1Wh0DCl73EXpxdTce9AGBckDRCkKDUxZTqoZohTGiILhXz*aIEMX9iZck67Lt0GECWV+VhZJDsMPVT8uYRDkZca8KgvU5oAIGHY+w4gxnMW06WOZQRLs8Rmpe8goGEYwoehXhYigEAwZKdGvqVXzsGn8ZClZq65hgTZIb4LgsLHkoN8XRb7TG*BD8Tu9e2pAYVHcZYiBNshg8xZYry*P+PXlOXt9ef62eX15zl9fnsv3QPzt2+pueeeBNkhumLwo83JHlAbdHi+K0lD83sSvv6ppkoeIQZxQMATq1LGw7RraIqpxMNN1xYwVNVbAZ*UfNnqTaUcqhZvqXH*hek5vFYaC2vGhInSostKKNLNFa2v7HVnv3GT6JwgYgqgq8HQTCjmc8+5on*m+rOPjg3zstKiWT6N13LpIx5Hsh9D11324KmUhlVazjn*y6GKehkqRbPXdRJ0cxmwT9i1*O1Hc+yZbiM44QL8nG3PZWItZjTNeSmeeNGDqImhdOCOo*cR0Z1KwSE6j7qolcPZhTnondeOWF4sW5cR+6C3NeiqT7eWs6bITboRKqUvvNFbeDH4bsOR9seGb9Rpdm98Io9ueeFfwP3R+o92YsXNt*4bwvnf+ZXZH674UO9Xl3DoctUPL7z6GMZvo8ZxNFe1ib4uqVNdeMneWTAPX6482KBLIopykYAhouoOgDUheNtY2syj*QyZV8c2x+1Z0AilTPsdlhVNEGUyLZqh7vCCJQqf39soheWFAugdD0F3K267ceL9SisJjkH1MH1CabypY4Po3UEsBAhQDFAAACAgASV7eWtEPwvJ*BAAAmQcAAAoAAAAAAAAAAAAAAICBAAAAAGNyZWRzLmpzb25QSwUGAAAAAAEAAQA4AAAApwQAAAAA
     "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
     "value": "",
     "required": false
