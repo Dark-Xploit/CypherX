@@ -14,7 +14,7 @@
     "start": "node index.js"
   },
 "env": {
-  "SESSION_ID": {
+  "SESSION_ID": {SHABAN-MD~VMJR0KoY#ICzGYYHEzy5ok3aqny03yHhwI_2zugYUV1GnaCMgxVA
     "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
     "value": "",
     "required": false
