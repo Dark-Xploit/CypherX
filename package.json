@@ -1,6 +1,6 @@
 {
   "name": "CypherX",
-  "version": "1.7.5",
+  "version": "1.7.7",
   "description": "The best Whatsapp bot",
   "main": "index.js",
   "engines": {
@@ -9,7 +9,7 @@
    },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js", 
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tylor",
@@ -22,7 +22,7 @@
         "awesome-phonenumber": "^7.4.0",
         "axios": "^1.8.3",
         "chalk": "^4.1.2",
-        "cheerio": "^1.0.0-rc.12",    
+        "cheerio": "^1.1.0",
         "check-disk-space": "^3.3.1",
         "dotenv": "^16.5.0",
         "express": "^4.19.2",
