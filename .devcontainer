@@ -1,0 +1,64 @@
+{
+  "name": "cyperX Node.js Codespaces Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/yarn:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "files.exclude": {
+          "**/.git": true,
+          "**/.DS_Store": true
+        }
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.node-debug2",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 9229],
+  "remoteUser": "vscode",
+  "postCreateCommand": "yarn install || npm install",
+  "initializeCommand": "git config --global user.name cyperX && git config --global user.email codespaces@cyperx.dev"
+}
+
+
+FROM node:lts
+
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg imagemagick webp && apt-get clean
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install && npm cache clean --force
+
+# Copy application code
+COPY . .
+
+# Expose port
+EXPOSE 3000
+
+# Set environment
+ENV NODE_ENV production
+
+# Run command
+CMD ["npm", "run", "start"]
