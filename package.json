@@ -1,6 +1,6 @@
 {
   "name": "CypherX",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "description": "The best Whatsapp bot",
   "main": "index.js",
   "engines": {
