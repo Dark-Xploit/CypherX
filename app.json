@@ -16,7 +16,7 @@
 "env": {
   "SESSION_ID": {
     "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
-    "value": "",
+    "value": "CYPHER-X:~eyJ2IjoxLCJpdiI6IkFQdTVIZjFvd2ZoWjdHQ1giLCJ0YWciOiJXejg3MVFmRHZ0Y1FzNzBUdEZiRkZBPT0iLCJkYXRhIjoiU29RWnQwaTZCQ2QyLzNxWmV1VkpsVnJIb3g4MlpkcnpZOHh6VE1DZ3JmYnJJL3BnRmozYm1BeW9RM21HNzFzMit3aklaVHBaMk9UM0d0Ukh3c1hpUFIwbldIOHJIczFVWVlJPSJ9",
     "required": false
   }
 },
