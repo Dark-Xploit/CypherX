@@ -17,7 +17,7 @@
   "SESSION_ID": {
     "description": "Must begin with 'XPLOADER-BOT:~' or 'Apostlepraize-X:~'.",
     "value": "",
-    "required": True
+    "required": true
   }
 },
   "buildpacks": [
