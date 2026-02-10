@@ -1,9 +1,9 @@
 {
-  "name": "CypherX",
-  "description": "CypherX, your friendly assistant!",
+  "name": "ApostlepraizeX",
+  "description": "ApostlepraizeX, your friendly assistant!",
   "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
   "keywords": [],
-  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "repository": "https://github.com/fredchinonso555-ui/Apostlepraizex",
   "stack": "container",
   "addons": [
     {
@@ -15,7 +15,7 @@
   },
 "env": {
   "SESSION_ID": {
-    "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+    "description": "Must begin with 'XPLOADER-BOT:~' or 'Apostlepraize-X:~'.",
     "value": "",
     "required": false
   }
