@@ -1,0 +1,24 @@
+{
+  "name": "CypherX",
+  "description": "Professional WhatsApp Bot with auto-session authentication",
+  "repository": "",
+  "build": {
+    "builder": "DOCKERFILE",
+    "buildCommand": "npm install"
+  },
+  "deploy": {
+    "startCommand": "node index.js",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  },
+  "variables": {
+    "SESSION_ID": {
+      "description": "REQUIRED: Your session token (CYPHER-X:~...) from the pairing page",
+      "required": true
+    },
+    "REPO_URL": {
+      "description": "Optional: override the bot source zip URL the loader downloads at startup",
+      "required": false
+    }
+  }
+}
